@@ -37,7 +37,7 @@ m$main(
   type = 'default',
   text = "R is amazing.  Here is how it got that way.  Thanks to all the prolific contributors.
   Thanks Ramnath Vaidyanathan for <a href ='http://rcharts.io/site)'>rCharts</a> especially
-  this <a href='http://ramnathv.github.io/sachin100s/'>timeline</a> which provided the code to generate this timeline in R.",
+  his <a href='http://ramnathv.github.io/sachin100s/'>timeline</a> which provided the code to generate all of this in R.",
   startDate =  format(as.Date(tail(releaseDates,1)[,1],"%m/%d/%Y"),"%Y,%m,%d"),
   asset = list(media = 'http://r-project.org')
 )
